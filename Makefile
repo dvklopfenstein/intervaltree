@@ -153,3 +153,8 @@ env:
 	upload \
 	env
 
+add_remote:
+	git remote add upstream https://github.com/chaimleib/intervaltree.git
+
+pull_upstream:
+	git pull upstream master
